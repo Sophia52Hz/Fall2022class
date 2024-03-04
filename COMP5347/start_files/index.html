@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <meta charset="utf-8" />
+    <title>COMP5347 Assignment One</title>
+    <link rel="stylesheet" href="index.css" />
+    <script defer type="text/javascript" src="index.js"></script>
+  </head>
+  <body>
+    <div class="background-image-blur-whitewash"></div>
+    <header>
+      <h1>Cartoonopia</h1>
+      <p>The home of characters and cartoons!</p>
+    </header>
+    <main>
+      <aside id="filters">
+        <!-- Add range sliders here -->
+      </aside>
+      <section id="search-section">
+        <form id="search-form">
+          <input
+            id="search-input"
+            type="text"
+            placeholder="Search for a character"
+          />
+        </form>
+        <table id="character-table">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Strength</th>
+              <th>Speed</th>
+              <th>Skill</th>
+              <th>Fear Factor</th>
+              <th>Power</th>
+              <th>Intelligence</th>
+              <th>Wealth</th>
+              <th>Selected</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Character rows will be inserted here using JavaScript -->
+          </tbody>
+        </table>
+      </section>
+
+      <div id="comparison-section">
+        <div class="character-profile" id="character1-profile">
+          <h2 id="character1-name">Unknown</h2>
+          <img
+            id="character1-image"
+            src="images/unknown.jpg"
+            alt="Unknown Character"
+            height="120px"
+            width="120px"
+          />
+        </div>
+        <div class="character-profile" id="character2-profile">
+          <h2 id="character2-name">Unknown</h2>
+          <img
+            id="character2-image"
+            src="images/unknown.jpg"
+            alt="Unknown Character"
+            height="120px"
+            width="120px"
+          />
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
